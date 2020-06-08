@@ -15,3 +15,14 @@ How to add new Node to head.
 2. Assign head pre to new node.
 3. Now make new node as head.
 4. Update list length.
+
+Adding Element at the end :-
+-----------------------------
+
+|null|data|next| <-> |pre|data|next| <-> |pre|data|null|
+
+How to add new Node at the end of list.
+
+1. Check if head is null, if head is null -> make new node's pre and next null and make it head.
+2. If head is not null -> make new node's next null, pre to the last node. Last node's next to new node.
+3. Update the lenght of the list.
